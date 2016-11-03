@@ -206,12 +206,14 @@
     <Compile Include="App_Start\Startup.Auth.cs" />
     <Compile Include="App_Start\WebApiConfig.cs" />
     <Compile Include="Controllers\AccountController.cs" />
+    <Compile Include="Controllers\CollectionController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Controllers\ManageController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
     <Compile Include="Models\AccountViewModels.cs" />
+    <Compile Include="Models\CollectionViewModels.cs" />
     <Compile Include="Models\IdentityModels.cs" />
     <Compile Include="Models\ManageViewModels.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -229,12 +231,18 @@
     <Content Include="Content\img\portfolio\fullsize\4.jpg" />
     <Content Include="Content\img\portfolio\fullsize\5.jpg" />
     <Content Include="Content\img\portfolio\fullsize\6.jpg" />
+    <Content Include="Content\img\portfolio\fullsize\Documentation.jpg" />
+    <Content Include="Content\img\portfolio\fullsize\sample-collection-letter.jpg" />
+    <Content Include="Content\img\portfolio\fullsize\websiteslinks.jpg" />
     <Content Include="Content\img\portfolio\thumbnails\1.jpg" />
     <Content Include="Content\img\portfolio\thumbnails\2.jpg" />
     <Content Include="Content\img\portfolio\thumbnails\3.jpg" />
     <Content Include="Content\img\portfolio\thumbnails\4.jpg" />
     <Content Include="Content\img\portfolio\thumbnails\5.jpg" />
     <Content Include="Content\img\portfolio\thumbnails\6.jpg" />
+    <Content Include="Content\img\portfolio\thumbnails\Documentation_01.jpg" />
+    <Content Include="Content\img\portfolio\thumbnails\sample-collection-letter.jpg" />
+    <Content Include="Content\img\portfolio\thumbnails\websiteslinks.jpg" />
     <Content Include="Content\js\creative.js" />
     <Content Include="Content\js\creative.min.js" />
     <Content Include="Content\vendor\bootstrap\css\bootstrap.css" />
@@ -352,6 +360,7 @@
     <Content Include="Views\Home\HomeTest.cshtml" />
     <Content Include="Views\Shared\Menu.cshtml" />
     <Content Include="Views\Account\LoginTest.cshtml" />
+    <Content Include="Views\Collection\Add.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
